@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'HireIt\Controllers\HomeController@getIndex');
+Route::controller('/search','HireIt\Controllers\Home\SearchController');
