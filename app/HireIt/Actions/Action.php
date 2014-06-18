@@ -23,6 +23,5 @@ abstract class Action {
         $this->callback = $callback;
         return $this;
     }
-    abstract public function fire();
 
-} 
+}
