@@ -124,6 +124,7 @@ return array(
 
 	),
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+        'Way\Generators\GeneratorsServiceProvider',
 
 	/*
 	|--------------------------------------------------------------------------
