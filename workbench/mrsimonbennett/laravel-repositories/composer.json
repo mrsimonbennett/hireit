@@ -1,0 +1,20 @@
+{
+    "name": "mrsimonbennett/laravel-repositories",
+    "description": "",
+    "authors": [
+        {
+            "name": "Simon Bennett",
+            "email": "simon@bennett.im"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mrsimonbennett\\LaravelRepositories": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
