@@ -126,6 +126,7 @@ return array(
         'Way\Generators\GeneratorsServiceProvider',
 
         'HireIt\Models\ServiceProviders\Model',
+        'HireIt\Events\EventingServiceProvider'
 
 
     ),
