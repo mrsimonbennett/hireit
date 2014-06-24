@@ -26,6 +26,12 @@ abstract class CommandCallback {
         return $this;
     }
 
+    /**
+     * @return \Mrsimonbennett\Transport\Callback
+     */
+    public function getCallback()
+    {
+        return $this->callback;
+    }
 
-
-} 
+}
