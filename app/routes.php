@@ -13,3 +13,6 @@
 
 Route::get('/', 'HireIt\Controllers\HomeController@getIndex');
 Route::controller('/search','HireIt\Controllers\Home\SearchController');
+
+Route::get('/admin','HireIt\Controllers\Admin\MainAdminController@getIndex');
+Route::controller('/admin/auth','HireIt\Controllers\Admin\AuthController');
